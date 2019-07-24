@@ -1,4 +1,13 @@
+html, body {
+	    height: 100%;
+}
+.header {
+	background-color: #1F1F1F;
+	background: #1F1F1F;
+}
+
 body {
+	margin: 0;
 	background-color: #121212;
 	overflow-x: hidden;
 	color: #FFFFFFCC;
@@ -11,9 +20,16 @@ h1 {
 	font-size: 90%;
 }
 h2 {
+  background-color: #020202;
+  color: transparent;
+	font-size: 51px;
 	line-height: 100px;
 	margin: -1% -5%;
 	padding: 0rem 0%;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.1);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
 }
 .container {
   display: grid;
@@ -64,3 +80,7 @@ a {
 }
 p {
 	background-color: 
+	.depth {
+    color: black;
+    position: relative;
+}
