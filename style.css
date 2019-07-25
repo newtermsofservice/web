@@ -52,6 +52,8 @@ h2 {
   text-align: center;
   color: #FBC830;
     background-color: #121212;
+	   box-shadow: 0 13px 13px -13px #FBC830 inset;
+
 }
 .item2 {
 /* green */
@@ -61,6 +63,7 @@ h2 {
   text-align: center;
     color: #6EF92E;
 	   background-color: #121212;
+	   box-shadow: 0 13px 13px -13px #6EF92E inset;
 }
 .item3 {
 /* purple */
@@ -70,6 +73,8 @@ h2 {
   text-align: center;
     color: #D567FD;
 	   background-color: #121212;
+	   box-shadow: 0 13px 13px -13px #D567FD inset;
+
 }
 .button {
 border: 2px solid grey;
